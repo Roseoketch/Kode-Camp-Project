@@ -1,0 +1,80 @@
+body{
+    font-family: Roboto;
+    background-color: #E5E5E5;
+}
+
+h1{
+    text-align: center;
+    margin-top: 64px;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.intro{
+    display: flex;
+    margin: 196px 90px 0 90px;
+}
+
+.intro > div{
+    flex: 1;
+}
+
+.intro > #desc > h3{
+    text-align: center;
+    border-bottom: 4px solid #D89616;
+    border-width: 50;
+    margin-bottom: 80px;
+}
+
+.intro > #desc >p{
+    height: 168px;
+    width: 513px;
+}
+
+div > form{
+    margin: 130px 150px 180px 150px;
+    height: 657px;
+    width: 852px;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    box-shadow: ;
+}
+
+
+div>form>h2{
+    font-size: 50px;
+    font-weight: 500;
+    padding: 44px 450px 10px 79px;
+    color: #0D0C0C;
+}
+
+div>form>label{
+    padding: 23px 445px 15px 84px;
+}
+
+div>form>input{
+    border-radius: 5px;
+    height: 45px;
+    width: 664px;
+
+    margin: 15px 100px 10px 88px;
+}
+
+div>form>textarea{
+    height: 160px;
+    width: 664px;
+    border-radius: 5px;
+    margin: 10px 100px 0 88px;
+
+}
+
+div>form>button{
+    background-color: #004DE6;
+    height: 40px;
+    width: 217px;
+    border-radius: 8px;
+    margin: 30px 100px 77px 533px;
+    color: white;
+    font-weight: 700;
+}
+
