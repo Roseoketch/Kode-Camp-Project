@@ -20,11 +20,26 @@ h1{
 }
 
 .intro > #desc > h3{
-    text-align: center;
-    border-bottom: 4px solid #D89616;
-    border-width: 50;
-    margin-bottom: 80px;
+    margin-left: 25%;
+    margin-bottom: 50px;
+    line-height: 45px;
+    color: #0D0C0C;
+
 }
+
+.intro>#desc>h3:after{
+    content: "";
+    align-content: center;
+    position: absolute;
+    width: 60px;
+    height: 0px;
+    left: 62.5%;
+    top: 350px;
+
+    border: 2px solid #D89616;
+}
+
+
 
 .intro > #desc >p{
     height: 168px;
